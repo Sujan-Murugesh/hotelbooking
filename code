@@ -1,0 +1,13 @@
+<div class='card-deck'>
+                        <div class='card well'>
+                            
+                            <h4>".$row['type']."</h4><hr>
+                            <div class='card-body'>
+                                <h5>Number of Beds: ".$row['bedtype']." bed.</h5>
+                                <h6 style='color:#6666ff;'>Price: ".$row['price']." Rupees/night.</h6>
+                            </div>
+                            <div class='card-footer'>
+                                <a href='./booknow.php?type=".$row['type']."&id=".$row['id']."&amount=".$row['price']."'><button class='btn btn-warning'>Book Now</button> </a>
+                            </div>
+                        </div>
+                    </div>
